@@ -26,3 +26,7 @@ https://joshua1988.github.io/web-development/javascript/promise-for-beginners/
 3. promise + generator
 4. async & await
 https://joshua1988.github.io/web-development/javascript/js-async-await/
+
+- 프론트엔드 개발자가 알아야하는 HTTP 프로토콜
+https://joshua1988.github.io/web-development/http-part1/
+https://developer.chrome.com/docs/devtools/
