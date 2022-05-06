@@ -47,6 +47,27 @@ https://developer.chrome.com/docs/devtools/
 
 # 싱글 파일 컴포넌트
 
+# ES6
+ECMAScript 2015와 동일한 용어
+2015년 ES5(2009년)이래로 진행한 첫 메이저 업데이트가 승인된 해
+최신 Front-End Framwork인 React, Angular, Vue에서 권고하는 언어 형식
+ES5에 비해 문법이 간결해져서 익숙해지면 코딩을 훨씬 편하게 할 수 있음
+
+- Babel
+구버번 브라우저 중에서는 ES6의 기능을 지원하지 않는 브라우저가 있으므로 transpiling이 필요
+ES6의 문법을 각 브라우저의 호환 가능한 ES5로 변환하는 컴파일러
+
+- const & let : 새로운 변수 선언 방식
+블록단위 {} 로 변수의 범위가 제한되었음
+const : 한번 선언한 값에 대해서 변경할 수 없음 -> 상수
+let : 한번 선언한 값에 대해서 다시 선언할 수 없음
+
+
+
+
+
+
+
 
 
 
