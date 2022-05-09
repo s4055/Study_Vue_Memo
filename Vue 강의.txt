@@ -1,5 +1,22 @@
 https://github.com/joshua1988/learn-vue-js
 
+# Vue CLI 2.x VS 3.x
+- 명령어
+  - 2.x : vue init '프로젝트 템플릿 이름' '파일 위치'
+  - 3.x : vue create '프로젝트 이름'
+ 
+ - 웹팩 설정 파일
+  - 2.x : 노출 O
+  - 3.x : 노출 X
+  
+ - 프로젝트 구성
+  - 2.x : 깃업의 템플릿 다운로드
+  - 3.x : 플러그인 기반으로 기능 추가
+
+- ES6 이해도
+  - 2.x : 필요 X
+  - 3.x : 필요 O
+ 
 # View
 MVVM 패턴의 뷰모델(ViewModel) 에리어에 해당하는 화면(View)단 라이브러리
 View (DOM) -> ViewModel (DOM Listener, Data Bindings) -> Model (Plain JavaScript Objects)
@@ -59,7 +76,7 @@ ES6의 문법을 각 브라우저의 호환 가능한 ES5로 변환하는 컴파
 
 - const & let : 새로운 변수 선언 방식
 블록단위 {} 로 변수의 범위가 제한되었음
-const : 한번 선언한 값에 대해서 변경할 수 없음, 객체나 배령의 내부는 변경할 수 있음 -> 상수
+const : 한번 선언한 값에 대해서 변경할 수 없음, 객체나 배열의 내부는 변경할 수 있음 -> 상수
 let : 한번 선언한 값에 대해서 다시 선언할 수 없음
 
 - ES5 특징 : Hoisting
@@ -145,6 +162,7 @@ actions -> mapActions
  Vuex에 선언한 속성을 그대로 컴포넌트에 연겷하는 문법 : 인자를 선언하지 않아도 인자를 넘겨줌 -> 'addNumber' = addNumber(인자)
  Vuex에 선언한 속성을 컴포넌트의 특정 메서드에다가 연결하는 문법 -> 컴포넌트 메서드 명 : Store의 뮤테이션 명
 
+# 라우터 Router
 
 
 
