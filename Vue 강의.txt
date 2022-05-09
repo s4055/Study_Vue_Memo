@@ -112,6 +112,10 @@ getters : 연산된 state 갑을 접근하는 속성 computed
 mutations : state값을 변경하는 이벤트 로직•메서드 methods
 actions : 비동기 처리 로직을 선언하는 메서드 aysnc methods
 
+- mutation
+state의 값을 변경할 수 있는 유일한 방법이자 메서드
+commit으로 동작
+
 - state는 왜 직접 변경하지 않고 mutations로 변경할까?
 여러 개의 컴포넌트에서 아래와 같이 state값을 변경하는 경우 어는 컴포넌트에서 해당 state를 변경했는지 추적하기 어려움
 특정 시점에 어떤 컴포넌트가 state를 접근하여 변경한 건지 확인하기 어렵기 때문
@@ -135,9 +139,11 @@ actions -> mapActions
 
 - mapState : Vuex에 선언한 state 속성을 뷰 컴포넌트에 더 쉽게 연결해주는 헬퍼
 - mapGetters : Vuex에 선언한 getters 속성을 뷰 컴포넌트에 더 쉽게 연결해주는 헬퍼
-
-
-
+- mapMutatoins : Vuex에 선언한 mutations 속성을 뷰 컴포넌트에 더 쉽게 연결해주는 헬퍼
+- mapActoins : Vuex에 선언한 actions 속성을 뷰 컴포넌트에 더 쉽게 연결해주는 헬퍼
+- 헬퍼의 유연한 문법
+ Vuex에 선언한 속성을 그대로 컴포넌트에 연겷하는 문법 : 인자를 선언하지 않아도 인자를 넘겨줌 -> 'addNumber' = addNumber(인자)
+ Vuex에 선언한 속성을 컴포넌트의 특정 메서드에다가 연결하는 문법 -> 컴포넌트 메서드 명 : Store의 뮤테이션 명
 
 
 
