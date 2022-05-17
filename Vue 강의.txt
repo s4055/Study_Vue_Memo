@@ -167,8 +167,9 @@ actions -> mapActions
  Vuex에 선언한 속성을 컴포넌트의 특정 메서드에다가 연결하는 문법 -> 컴포넌트 메서드 명 : Store의 뮤테이션 명
 
 # 라우터 Router
+this.$router.push('경로') -> 네트워크 통신 없이 <router-view></router-view> 영역에 표시
 
-# 하이 오더 컴포넌
+# 하이 오더 컴포넌트
 컴포넌트의 로직(코드)를 재사용하기 위한 고급 기술 : 레벨이 깊어짐
 
 # Mixins
