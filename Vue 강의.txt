@@ -20,6 +20,10 @@ https://github.com/joshua1988/vue-til-server
 - ES6 이해도
   - 2.x : 필요 X
   - 3.x : 필요 O
+  
+# v-on, v-bind
+v-on = @
+v-bind = :
  
 # View
 MVVM 패턴의 뷰모델(ViewModel) 에리어에 해당하는 화면(View)단 라이브러리
@@ -199,13 +203,3 @@ Renderless : 데이터 처리 컴포넌트
 요청이나 응답 처리를 하기 전에 추가 로직을 놓을 수 있는 방법
 
 # Jest
-
-
-
-
-
-
-
-
-
-
